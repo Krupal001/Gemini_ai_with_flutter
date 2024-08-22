@@ -21,7 +21,7 @@ class _HomeScreenState extends State<HomeScreen> {
     super.initState();
     _model = GenerativeModel(
       model: 'gemini-pro',
-      apiKey: 'AIzaSyBnzTwAfZDlgWjbMZuTr_XLgiy8Kyo-2j0', // Use the API key from the environment variable
+      apiKey: 'YOUR-API KEY', // Use the API key from the environment variable
     );
     _chatSession = _model.startChat();
   }
